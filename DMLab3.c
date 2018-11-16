@@ -60,6 +60,7 @@ int main()
         }
     }
     printf("\n");
+    printf("This matrix is:\n");
     int diagonal=1;
     for(i=0; i<size; i++)
     {
@@ -91,7 +92,7 @@ int main()
     }
     
     if(diagonal2==1)
-        printf("This relation is symmetric\n");
+        printf("Symmetric\n");
     else if(diagonal2==0)
-        printf("This relation is not symmetric\n");
+        printf("Not symmetric\n");
 }
