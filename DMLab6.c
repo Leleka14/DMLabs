@@ -49,7 +49,7 @@ int main (void)
         }
         if(pointer==0)
         {
-            break;}
+            break;
         }
     for(i=0;i<amount;i++)
     {
